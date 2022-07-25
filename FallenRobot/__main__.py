@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="☁️ ꜱᴛᴅ ☁️", callback_data="source_"),
+        InlineKeyboardButton(text="☁️ ʟɪꜰᴇʟɪɴᴇ ☁️", callback_data="source_"),
     ],
 ]
 
@@ -408,8 +408,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ",
-                            url="https://t.me/DEEPANSHU_WORLD",
+                            text="ʟɪꜰᴇʟɪɴᴇ",
+                            url="https://t.me/lifelinesss",
                         ),
                     ],
                     [
@@ -430,7 +430,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/lifelinesss"
                         ),
                     ],
                     [
@@ -438,7 +438,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/Deepanshu_Meena09"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://t.me/DEEPANSHU_WORLD"
+                            text="ʟɪꜰᴇʟɪɴᴇ", url="https://t.me/DEEPANSHU_WORLD"
                         ),
                     ],
                     [
@@ -465,7 +465,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs Ɗᴇᴇᴘᴀɴꜱʜᴜ ʀᴏʙᴏᴛ*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://t.me/DEEPANSHU_WORLD)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [ᴛᴇᴀᴍ ꜱᴛᴅ](https://t.me/best_friends_chat_group) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [Ɗᴇᴇᴘᴀɴꜱʜᴜ](https://t.me/Deepanshu_Meena09)""",
+            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs ʟɪꜰᴇʟɪɴᴇ ʀᴏʙᴏᴛ*\n\n*ʜᴇʀᴇ ɪs ᴍʏ ᴄʜᴀɴɴᴇʟ :* [ᴜᴘᴅᴀᴛᴇ](https://t.me/lifelinesss)\n\n*ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [ᴛᴇᴀᴍ ꜱᴛᴅ](https://t.me/best_friends_chat_group) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [Ɗᴇᴇᴘᴀɴꜱʜᴜ](https://t.me/Deepanshu_Meena09)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
